@@ -10,12 +10,12 @@ reacts instantly to the sidebar filters.
 
 Expected project layout:
     project/
-    ├── streamlit_testing.py
+    ├── llm_comparison_data.py
     └── dataset/
         └── llm_comparison_dataset.csv   (or any *.csv with similar columns)
 
 Run with:
-    streamlit run streamlit_testing.py
+    streamlit run llm_comparison.py
 """
 
 import glob
